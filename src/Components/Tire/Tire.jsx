@@ -121,7 +121,7 @@ export default function Tire() {
           {apiResponse.top === "Defected" && (
             <a
             href="https://www.fitandfix.com"
-              className="col-auto btn bg-success text-white"
+              className="col-auto bg-success text-white"
               style={{
                 fontSize: "20px",
                 color:"green"
