@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Car-Inspector-React/static/css/main.62d3213f.css",
-    "main.js": "/Car-Inspector-React/static/js/main.599c3a58.js",
+    "main.js": "/Car-Inspector-React/static/js/main.6b97e9d4.js",
     "static/js/453.23131384.chunk.js": "/Car-Inspector-React/static/js/453.23131384.chunk.js",
     "static/media/Gemini_Generated_Image (5)1.jpg": "/Car-Inspector-React/static/media/Gemini_Generated_Image (5)1.d85bc9abc4dd5edf4436.jpg",
     "static/media/Gemini_Generated_Image (5)12.jpg": "/Car-Inspector-React/static/media/Gemini_Generated_Image (5)12.7a017b663e51b4c6d53b.jpg",
     "index.html": "/Car-Inspector-React/index.html",
     "main.62d3213f.css.map": "/Car-Inspector-React/static/css/main.62d3213f.css.map",
-    "main.599c3a58.js.map": "/Car-Inspector-React/static/js/main.599c3a58.js.map",
+    "main.6b97e9d4.js.map": "/Car-Inspector-React/static/js/main.6b97e9d4.js.map",
     "453.23131384.chunk.js.map": "/Car-Inspector-React/static/js/453.23131384.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62d3213f.css",
-    "static/js/main.599c3a58.js"
+    "static/js/main.6b97e9d4.js"
   ]
 }
