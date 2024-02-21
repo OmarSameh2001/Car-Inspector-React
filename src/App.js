@@ -20,7 +20,7 @@ function App() {
       children: [
         { index: true, element: <Home></Home> },
         { path: "home", element: <Home></Home> },
-        { path: "Car-Inspector-React", element: <Home></Home> },
+        { path: "Car-Inspector-React/", element: <Home></Home> },
         { path: "tire", element: <Tire></Tire> },
         { path: "belt", element: <Belt></Belt> },
         { path: "pad", element: <Pad></Pad> },
