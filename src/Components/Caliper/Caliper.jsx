@@ -148,7 +148,7 @@ export default function Caliper() {
       {apiResponse ? (
         <div style={{ marginTop: "20px" }} className="row mx-auto">
           {apiResponse.predictions.map((prediction) => (
-            <>
+            <div className="row">
               <p key={prediction.detection_id} className="col-auto">
                 Your Brake Caliper is: {prediction.class}, with confidence{" "}
                 {(prediction.confidence * 100).toFixed(2)}%
@@ -164,7 +164,7 @@ export default function Caliper() {
                   Click to redirect to specialist
                 </a>
               )}
-            </>
+            </div>
           ))}
 
           <button

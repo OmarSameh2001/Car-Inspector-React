@@ -119,17 +119,17 @@ export default function Tire() {
           </p>
 
           {apiResponse.top === "Defected" && (
-            <button
+            <a
+            href="https://www.fitandfix.com"
               className="col-auto btn bg-success text-white"
               style={{
                 fontSize: "20px",
+                color:"green"
               }}
-              onClick={() =>
-                (window.location.href = "https://www.fitandfix.com")
-              }
+              
             >
               Redirect to specialist
-            </button>
+            </a>
           )}
 
           <button

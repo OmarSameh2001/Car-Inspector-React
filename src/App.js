@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import React, { Children, useState } from "react";
-import axios from "axios";
+import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Tire from "./Components/Tire/Tire";

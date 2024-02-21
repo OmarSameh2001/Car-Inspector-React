@@ -18,7 +18,7 @@ export default function Navigation() {
                   to="home"
                   style={{
                     color: "white",
-                    background: isActive("/home") || isActive("/") ? "rgb(41 67 49)" : "transparent",
+                    background: isActive("/home") || isActive("/") || isActive("Car-Inspector-React/") ? "rgb(41 67 49)" : "transparent",
                     borderRadius: "10px",
                   }}
                 >
