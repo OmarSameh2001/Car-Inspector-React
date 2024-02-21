@@ -8,7 +8,7 @@ export default function Navigation() {
   };
   return (
     <>
-      <nav className="py-3 navbar navbar-expand-sm position-relative" style={{backgroundColor: "rgb(31 31 31)"}}>
+      <nav className="py-3 navbar navbar-expand-sm position-relative col" style={{backgroundColor: "rgb(31 31 31)"}}>
         <div className="container">
           <div className="collapse navbar-collapse" id="collapsibleNavId">
             <ul className="navbar-nav me-auto mt-2 mt-lg-0">

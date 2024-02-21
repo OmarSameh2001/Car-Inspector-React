@@ -85,16 +85,24 @@ export default function Tire() {
       }}
       className="App-header"
     >
-      {!images && <><h1 className="py-5">Kindly upload an image</h1>
-      <input
-        style={{ cursor: "pointer" }}
-        type="file"
-        accept="image/*"
-        onChange={handleFileInputChange}
-      /></>}
-      {images && !apiResponse && <h1 className="py-2">Press Upload to process your image</h1>}
-      {images && apiResponse && <h1 className="py-2">Press reset to test new image</h1>}
-      
+      {!images && (
+        <>
+          <h1 className="py-5">Kindly upload an image</h1>
+          <input
+            style={{ cursor: "pointer" }}
+            type="file"
+            accept="image/*"
+            onChange={handleFileInputChange}
+          />
+        </>
+      )}
+      {images && !apiResponse && (
+        <h1 className="py-2">Press Upload to process your image</h1>
+      )}
+      {images && apiResponse && (
+        <h1 className="py-2">Press reset to test new image</h1>
+      )}
+
       {images && (
         <div
           style={{
@@ -120,20 +128,21 @@ export default function Tire() {
 
           {apiResponse.top === "Defected" && (
             <a
-            href="https://www.fitandfix.com"
+              href="https://www.fitandfix.com"
               className="col-auto bg-success text-white"
+              target="_blank"
+              rel="noreferrer"
               style={{
                 fontSize: "20px",
-                color:"green"
+                color: "green",
               }}
-              
             >
               Redirect to specialist
             </a>
           )}
 
           <button
-            style={{margin:"20px"}}
+            style={{ margin: "20px" }}
             className="btn bg-danger text-white col-md4"
             onClick={resetStates}
           >
