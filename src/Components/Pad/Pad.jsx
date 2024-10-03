@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import axios from "axios";
+import background from "../../Assets/Gemini_Generated_Image (5)1.jpg";
 
 export default function Pad() {
   const [images, setImages] = useState(null);
