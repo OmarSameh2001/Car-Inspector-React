@@ -67,6 +67,7 @@ export default function Pad() {
       }}
       className="App-header  mx-auto"
     >
+      <h1 className="py-5">Under Development</h1>
       {!images && (
         <>
           <h1 className="py-5">Kindly upload an image</h1>
